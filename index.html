@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+<header>
+    <div class="container">
+
+        <h1>
+            <img class="logo" src="imgs/lovespoon.png" width="200" height="200" alt="love Spoon">
+            The Love Spoon
+            <img class="logo" src="imgs/lovespoon.png" width="200" height="200" alt="Love Spoon">
+        </h1>
+
+    </div><!--header container-->
+</header>
+
+<main>
+
+    <div class="container">
+
+
+        <div id="welcomeMessage"></div>
+
+        <div><input id="translateBtn" disabled="disabled" type="button" value="Welsh Translation"></div>
+
+        <p id="selection">Please Select Your Menu:</p>
+
+        <p id="price">
+            Price: £ <span id="priceSpan">0.00</span>
+        </p>
+
+
+        <fieldset>
+
+            <legend>Staters:</legend>
+            <div>
+                <img id=starters src="imgs/poachedduckwithbrusselssproutsappleandbuckwheat.jpg" width="1426"
+                     height="713" alt="Starter Pics">
+            </div>
+
+
+            <p>
+                <button class="directionLeft" id="prevBtn" type="button">prev</button>
+                <button class="directionRight" id="nextBtn" type="button">next</button>
+
+            </p>
+
+            <p id="st1" class="starters highlight"> Poached Duck with Brussels Sprouts, Apple and Buckwheat
+                <span>£<span>5.99</span></span></p>
+            <p id="st2" class="starters "> Camembert, Fig and Onion Tart <span>£<span>4.35</span></span></p>
+            <p id="st3" class="starters "> Roasted Langoustines, Oyster Purée, Celery, and Horseradish
+                <span>£<span>6.25</span></span></p>
+            <p id="st4" class="starters "> Crab and Watermelon <span>£<span>5.40</span></span></p>
+            <p id="st5" class="starters "> No thank you, I am leaving room for a dessert <span>£<span>0.00</span></span>
+            </p>
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>Mains:</legend>
+
+            <img id=mains src="imgs/sicilianrabbit.jpg" width="1426" height="713" alt="Main Pics">
+
+
+            <p>
+                <button class="directionLeft" id="prevBtn2" type="button">prev</button>
+                <button class="directionRight" id="nextBtn2" type="button">next</button>
+
+            </p>
+
+            <p id="mn1" class=" mains highlight"> Sicilian Rabbit <span>£<span>13.65</span></span></p>
+            <p id="mn2" class=" mains "> Pork Belly with Apple Purée and Sprouting Broccoli
+                <span>£<span>15.30</span></span></p>
+            <p id="mn3" class=" mains "> Lamb, Smoked Aubergine, Yoghurt and Onions
+                <span>£<span>13.99</span></span></span></p>
+            <p id="mn4" class=" mains "> Venison Burger with Homemade Chips <span>£<span>14.40</span></span></p>
+            <p id="mn5" class=" mains "> Veggie Wellington <span>£<span>12.99</span></span></p>
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>Desserts:</legend>
+
+            <img id=desserts src="imgs/raspberryandchocolaterosedelice.jpg" width="1426" height="713" alt="Desert Pics">
+
+
+            <p>
+                <button class="directionLeft" id="prevBtn3" type="button">prev</button>
+                <button class="directionRight" id="nextBtn3" type="button">next</button>
+
+            </p>
+
+            <p id="ds1" class=" desserts highlight"> Raspberry and Chocolate Rose Delice <span>£<span>3.39</span></span>
+            </p>
+            <p id="ds2" class=" desserts "> Hazelnut, Caramel and Sesame Mousse Cake with Malt Ice Cream <span>£<span>4.50</span></span>
+            </p>
+            <p id="ds3" class=" desserts "> Baked Custard and Rhubarb Granita <span>£<span>4.25</span></span></p>
+            <p id="ds4" class=" desserts "> Mirabelle Soufflé with Poached Plums <span>£<span>3.99</span></span></p>
+            <p id="ds5" class=" desserts "> No thank you, I am sweet enough <span>£<span>0.00</span></span></p>
+
+        </fieldset>
+
+        <p>
+            <button id="conformationBtn" type="submit">Confirm</button>
+
+        </p>
+
+
+        <p id="confirmation" style="display: none;">Thank you for you order. Please hand the menu in at the bar and why
+            not grab a drink while you wait for
+            your food to be prepaired.We hope you enjoy your meal
+
+            <button id="buyBtn"><a href="#" type="submit">Buy</a></button>
+
+        </p>
+
+
+    </div><!--main container-->
+
+
+</main>
+
+<div class="container">
+    <footer>
+        <div class="container">
+            <p class="footer">
+                The picturers do not belong to me but to their respective owners. This is a project for Training Dragon.
+            </p>
+        </div><!--footer container-->
+    </footer>
+</div>
+
+<script src="js/jquery-3.1.1.js"></script>
+<script src="node_modules/typed.js/lib/typed.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+
+</html>

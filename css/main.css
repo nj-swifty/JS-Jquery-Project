@@ -1,0 +1,253 @@
+/* CSS RESET SECTION
+------------------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary, time, mark,
+audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+img {
+    vertical-align: top;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section, canvas, main, video {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* -----------------------------
+     general section
+-------------------------------- */
+.container {
+    position: relative;
+    width: 680px;
+    margin: 0 auto;
+}
+
+/* -----------------------------
+     body section
+-------------------------------- */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: red;
+    font-size: 35px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+
+    color: #000000;
+    font-size: 18px;
+    margin: 10px auto;
+    text-align: left;
+    padding-left: 533px;
+}
+
+#selection {
+    font-size: 25px;
+    line-height: 20px;
+    padding-bottom: 20px;
+
+}
+
+#price {
+
+    margin-left: 700px;
+    font-size: 24px;
+    position: fixed;
+}
+
+.highlight {
+    background-color: greenyellow;
+}
+
+span {
+    float: right;
+}
+
+#translateBtn {
+    background-color: limegreen;
+    color: white;
+    margin: 20px 40%;
+    width: 130px;
+    height: 40px;
+    border-right-color: grey;
+    border-bottom-color: grey;
+    border-left-color: white;
+    border-top-color: white;
+    cursor: pointer;
+
+}
+
+#translateBtn:disabled {
+    background-color: red;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: grey;
+    border-top-color: grey;
+    cursor: progress;
+
+}
+
+p {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 20px;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+fieldset {
+    border: none 5px black;
+    padding: 20px 0;
+}
+
+legend {
+    font-size: 20px;
+}
+
+.directionLeft {
+    background-color: limegreen;
+    color: white;
+    float: left;
+    height: 40px;
+    width: 60px;
+    margin-top: -30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.directionRight {
+    background-color: limegreen;
+    color: white;
+    float: right;
+    height: 40px;
+    width: 60px;
+    margin-top: -30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#conformationBtn {
+    background-color: green;
+    color: white;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    width: 80px;
+    height: 40px;
+    margin-left: 89%;
+    cursor: pointer
+}
+
+#buyBtn {
+    background-color: gold;
+    margin-top: 25px;
+    width: 80px;
+    height: 40px;
+    margin-left: 89%;
+    cursor: default;
+
+}
+
+#buyBtn a {
+    color: navy;
+    text-decoration: none;
+    cursor: url(../imgs/cursor.png), pointer;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 670px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+div#confirmation {
+    margin-bottom: 20px;
+    color: green;
+    max-height: 0;
+    font-size: 20px;
+
+}
+
+div#confirmation.open {
+    max-height: 300px;
+
+}
+
+#welcomeMessage {
+    height: 100px;
+    color: green;
+    font-size: 20px;
+    text-align: left;
+}
+
+.typed-cursor {
+    display: none;
+}
+
+/*-----------------------------
+        footer section
+------------------------------*/
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 2px red solid;
+    color: black;
+}
+
+
+
+
+
